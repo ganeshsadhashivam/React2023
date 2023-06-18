@@ -171,3 +171,9 @@ const updatedBook = {
   pages: 1200,
 };
 updatedBook;
+
+//template literal
+const summary = `${title} a book of ${pages} and published by ${author} and published in ${
+  publicationDate.split("-")[0]
+}`;
+summary;
