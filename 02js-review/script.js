@@ -177,3 +177,12 @@ const summary = `${title} a book of ${pages} and published by ${author} and publ
   publicationDate.split("-")[0]
 }`;
 summary;
+
+//TERnary operator
+
+const pagesCount = pages > 1000 ? "over thousand" : "less then 1000";
+pagesCount;
+
+//Arrow functions
+const getyear = (str) => str.split("-");
+console.log(getyear(publicationDate));
